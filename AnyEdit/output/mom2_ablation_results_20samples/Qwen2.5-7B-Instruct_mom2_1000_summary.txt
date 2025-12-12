@@ -1,0 +1,7 @@
+Calculate BLEU&ROUGE Score:   0%|          | 0/20 [00:00<?, ?it/s]Calculate BLEU&ROUGE Score:   5%|▌         | 1/20 [00:00<00:03,  4.95it/s]Calculate BLEU&ROUGE Score:  25%|██▌       | 5/20 [00:00<00:00, 18.40it/s]Calculate BLEU&ROUGE Score:  45%|████▌     | 9/20 [00:00<00:00, 26.11it/s]Calculate BLEU&ROUGE Score:  65%|██████▌   | 13/20 [00:00<00:00, 30.76it/s]Calculate BLEU&ROUGE Score:  85%|████████▌ | 17/20 [00:00<00:00, 31.60it/s]Calculate BLEU&ROUGE Score: 100%|██████████| 20/20 [00:00<00:00, 26.97it/s]
+***********Calculate BERT Similarity Score**************
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.56it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.56it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 61.90it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 69.62it/s]
+***********Result**************
+{'Original': {'BLEU SCORE': 0.8962597205233799, 'ROUGE-1': 0.9570938598362444, 'ROUGE-2': 0.9329567339258549, 'ROUGE-L': 0.9531918634660086, 'Bert Score': 0.9769701361656189}, 'Para': {'BLEU SCORE': 0.6411757533896902, 'ROUGE-1': 0.6839151457015282, 'ROUGE-2': 0.5592908034460284, 'ROUGE-L': 0.6732125931109565, 'Bert Score': 0.8648001551628113}, 'Sub': {'ROUGE-1': 0.46855357142857146, 'ROUGE-2': 0.176345357529181, 'ROUGE-L': 0.4533035714285715}}

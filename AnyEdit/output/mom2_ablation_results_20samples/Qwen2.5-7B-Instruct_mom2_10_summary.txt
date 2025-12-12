@@ -1,0 +1,13 @@
+Calculate BLEU&ROUGE Score:   0%|          | 0/20 [00:00<?, ?it/s]Calculate BLEU&ROUGE Score:   5%|▌         | 1/20 [00:00<00:03,  4.96it/s]Calculate BLEU&ROUGE Score:  25%|██▌       | 5/20 [00:00<00:00, 17.58it/s]Calculate BLEU&ROUGE Score:  45%|████▌     | 9/20 [00:00<00:00, 19.44it/s]Calculate BLEU&ROUGE Score:  65%|██████▌   | 13/20 [00:00<00:00, 22.83it/s]/home/pg2860/anyedit/.venv/lib/python3.10/site-packages/nltk/translate/bleu_score.py:552: UserWarning: 
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+Calculate BLEU&ROUGE Score:  90%|█████████ | 18/20 [00:00<00:00, 27.77it/s]Calculate BLEU&ROUGE Score: 100%|██████████| 20/20 [00:00<00:00, 23.93it/s]
+***********Calculate BERT Similarity Score**************
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.39it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.39it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 45.19it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 44.70it/s]
+***********Result**************
+{'Original': {'BLEU SCORE': 0.41185843624219504, 'ROUGE-1': 0.5549389553389097, 'ROUGE-2': 0.5346576545107233, 'ROUGE-L': 0.5549389553389097, 'Bert Score': 0.5711493492126465}, 'Para': {'BLEU SCORE': 0.025252335144176057, 'ROUGE-1': 0.0014785823005001087, 'ROUGE-2': 0.0, 'ROUGE-L': 0.0014785823005001087, 'Bert Score': -0.02294105850160122}, 'Sub': {'ROUGE-1': 0.002916666666666667, 'ROUGE-2': 0.0, 'ROUGE-L': 0.002916666666666667}}
